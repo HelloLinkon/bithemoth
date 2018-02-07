@@ -1,0 +1,313 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+
+/* =============== block ================*/
+.header{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	width: 100%;
+	height: 800px;
+	min-height: 100vh;
+	background: url('../images/header_background.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.market{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background: #f5f5f5 url('../images/chart_background.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-blend-mode: luminosity;
+	position: relative;
+	width: 100%;
+	/*padding-bottom: 100px;*/
+	min-height: 600px;
+}
+
+.livePrice{
+	margin: 0;
+	padding: 50px 0;
+	box-sizing: border-box;
+	width: 100%;
+	background: #efefef;
+}
+
+.footer{
+	margin: 0;
+	padding: 30px 0 0 0;
+	background: #068944 url(../images/footer_image.png) right no-repeat;
+	/*height: 300px;*/
+}
+/* =============== end block ================*/
+
+
+/* =============== element ================*/
+.header__menu{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	width: 100%;
+	overflow: hidden;
+}
+
+.header__banner{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	width: 100%;
+	overflow: hidden;
+	margin-top: 15%;
+}
+
+.market__chart{
+	width: 80%;
+	height: 600px;
+	/*background: #212121;*/
+	position: absolute;
+	top: -20%;
+	left: 50%;
+	transform: translateX(-50%);
+	border-radius: 15px;
+}
+
+.livePrice__title{
+
+}
+
+.livePrice__box{
+	margin-top: 40px;
+
+}
+
+.livePrice__table{
+	margin-top: 40px;
+}
+
+.footer__main{
+	padding-bottom: 30px;
+}
+
+.footer__copyright{
+	background: #056231;
+	width: 100%;
+	margin: 0;
+	padding: 10px 0;
+}
+
+/* =============== end element ================*/
+
+/* =============== modifier ================*/
+.header__menu_logo{
+	width: 70%;
+	padding: 15px 0;
+}
+
+.header__menu_item{
+	
+	padding-top: 30px;
+	overflow: hidden;
+}
+
+.header__banner_text{
+	padding-left: 40px;
+}
+
+.header__banner_signup{
+	margin-top: 50px;
+    float: right;
+
+}
+
+.livePrice__title_line{
+	width: 40%;
+	height: 2px;
+	background: #2ac372;
+	border-radius: 5px;
+}
+
+.footer__main_logo{
+
+}
+
+.footer__main_menu1{
+
+}
+
+.footer__main_menu2{
+	
+}
+
+.footer__main_social{
+	
+}
+
+.footer__copyright_text{
+	color: white;
+}
+
+/* =============== end modifier ================*/
+
+/* =============== others ================*/
+.header__menu_logo img{
+	width: 100%;
+}
+
+.header__menu_item ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: right;
+	/*margin-right: 25px;*/
+	font-family: 'Roboto', sans-serif;
+}
+
+.header__menu_item ul li{
+	display: inline-block;
+	color: white;
+	padding: 10px 15px;
+}
+
+.header__menu_item ul li:first-child{
+	color: #2ac372;
+}
+
+.header__banner_text img{
+	width: 70%;
+}
+
+.header__banner_text h1{
+	color: #2ac372;
+	font-family: 'Roboto', sans-serif;
+}
+
+.header__banner_text p{
+	color: white;
+	font-family: 'Roboto', sans-serif;
+}
+
+.header__banner_signup span{
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	margin-left: 20px;
+}
+
+.header__banner_signup button{
+	margin-left: 20px;
+}
+
+.livePrice__title h1{
+	color: #2ac372;
+	font-family: 'Roboto', sans-serif;
+}
+
+.livePrice__title p{
+	color: #8c8c8c;
+	font-family: 'Roboto', sans-serif;
+}
+
+.footer__copyright_text p{
+	margin: 0;
+	padding: 0;
+}
+
+
+.footer__main_menu1 ul{
+	margin: 0;
+	list-style: none;
+}
+
+.footer__main_menu1 ul li{
+	color: #55e79a;
+	font-family: 'Roboto', sans-serif;
+	padding: 5px 0;
+}
+
+.footer__main_menu1 ul li:first-child{
+	color: white;
+	font-size: 18px;
+}
+
+.footer__main_menu2 ul{
+	margin: 0;
+	list-style: none;
+}
+
+.footer__main_menu2 ul li{
+	color: #55e79a;
+	font-family: 'Roboto', sans-serif;
+	padding: 5px 0;
+}
+
+.footer__main_menu2 ul li:first-child{
+	color: white;
+	font-size: 18px;
+}
+
+.footer__main_social ul{
+	margin: 0;
+	list-style: none;
+}
+
+.footer__main_social ul li{
+	color: #55e79a;
+	font-family: 'Roboto', sans-serif;
+	padding: 5px 0;
+}
+
+.footer__main_social ul li i{
+	font-size: 24px;
+	margin: 10px;
+}
+
+.footer__main_social ul li:first-child{
+	color: white;
+	font-size: 18px;
+}
+
+/* =============== end others ================*/
+
+.btn-signup {
+    color: #fff;
+    background-color: #2ac372;
+    border: 2px solid #2ac372;
+    border-radius: 15px;
+}
+
+.btn-signin {
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #2ac372;
+    border-radius: 15px;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+    padding: 10px 40px;
+}
+
+.border{
+	border: 2px solid red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
